@@ -1,0 +1,45 @@
+{
+  "name": "fornecedores-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./dist/app/entry.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandokonopacki/fornecedores-api.git"
+  },
+  "author": "BR Developers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandokonopacki/fornecedores-api/issues"
+  },
+  "homepage": "https://github.com/fernandokonopacki/fornecedores-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.1",
+    "express-http-context": "^1.2.4",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0",
+    "typeorm": "^0.3.6",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/debug": "^4.1.7",
+    "@types/errorhandler": "^1.5.0",
+    "@types/method-override": "^0.0.32",
+    "debug": "^2.6.9",
+    "nock": "^13.2.7",
+    "nodemon": "^2.0.16",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.8.1",
+    "tslint": "^6.1.3"
+  }
+}
